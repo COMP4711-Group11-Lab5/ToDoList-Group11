@@ -19,11 +19,9 @@ class Views extends Application
 	 */
 	public function index()
     {
-        $this->data['pagetitle'] = 'Ordered TODO List - Group 11';
+        $this->data['pagetitle'] = 'Ordered TODO List - Group 12';
         $tasks = $this->tasks->all();   // get all the tasks
         $this->data['content'] = 'Ok'; // so we don't need pagebody
-        //$this->data['leftside'] = 'by_priority';
-        //$this->data['rightside'] = 'by_category';
 
         
 		$this->data['leftside'] = $this->makePrioritizedPanel($tasks);
@@ -40,7 +38,7 @@ class Views extends Application
 	            $undone[] = $task;
 	    }
 
-		$parms = ['display_tasks' => []];
+		//$parms = ['display_tasks' => []];
 
         // order them by priority
 		usort($undone, array($this, "orderByPriority"));
