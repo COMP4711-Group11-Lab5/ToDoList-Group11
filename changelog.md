@@ -12,6 +12,8 @@ Changelog format: Bottom to top (New to old).
 <h2>Version: </h2>
 Version | Release Date | Description  | Editor
 --- | --- | --- | ---
+*v3.5* | Mar 08, 2017 | Polished the item maintenance. | `Arv91`
+*v3.4* | Mar 08, 2017 | Added item maintenance. | `jasonlee97`
 *v3.3* | Mar 08, 2017 | Beefed up maintenance page. | `Arv91`
 *v3.2* | Mar 08, 2017 | Beefed up homepage. | `jasonlee97`
 *v3.1* | Mar 08, 2017 | Added caboose. | `Arv91`
